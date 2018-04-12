@@ -1,0 +1,29 @@
+{
+  "name": "rest-tms",
+  "version": "1.0.0",
+  "description": "A NodeJs RESTful for TMS Service.",
+  "main": "dest",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -s -D -d dist",
+    "start": "nodemon dist/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Suthicha Poonakaow",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "morgan": "^1.9.0",
+    "mssql": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.17.1"
+  }
+}
